@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Plantopia</title>
+</head>
+<body>
+    <section class="showcase ">
+        <header>    
+            <h2 class="logo">Plantopia</h2>
+            <div class="toggle "></div>
+        </header>
+    
+       <video src="Pexels Videos 1448735.mp4" muted loop autoplay></video>
+        <div class="overlay"></div> 
+
+
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring The World</h3>
+            <p>“We can begin the restructuring of thought by declaring legitimate what we have denied for so long. Lets us declare Nature to be legitimate. The notion of illegal plants is obnoxious and ridiculous in the first place.”</p>
+                 <!-- <button class="exbtn">Explore</button> -->
+                 
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="icons8-facebook.gif" alt="" width="40" height="40" /></a></li>
+            <li><a href="#"><img src="icons8-twitter-circled.gif" alt="" width="40" height="40"/></a></li>
+            <li><a href="https://www.instagram.com/plants_life___143/"><img src="icons8-instagram-old.gif" alt="" width="40" height="40" /></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="news.php">News</a></li>
+            <li><a href="Blog/indexi.php">Blog</a></li>
+            <li><a href="Blog/contact1.html">Contact</a></li>
+           
+        </ul>
+    </div>
+    <script>
+         const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+</body>
+</html>
